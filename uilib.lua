@@ -485,7 +485,7 @@ function lib:Create(time, size, hidekey)
 	ProfileStuff.AnchorPoint = Vector2.new(1, 0.5)
 	ProfileStuff.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	ProfileStuff.BackgroundTransparency = 1.000
-	ProfileStuff.Position = UDim2.new(1, 0, 0.5, 0)
+	ProfileStuff.Position = UDim2.new(0.99, 0, 0.5, 0)
 	ProfileStuff.Size = UDim2.new(0.01, 140, 1, 0)
 
 	local ProfileInfo = Instance.new("Frame")
